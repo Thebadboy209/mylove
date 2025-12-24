@@ -611,9 +611,9 @@ scene.add(planet);
 
 // ---- TẠO CÁC VÒNG CHỮ QUAY QUANH HÀNH TINH ----
 const ringTexts = [
-  'mong tình bạn này mãi mãi trường tồn theo năm tháng',
-  "THƯƠNG MỖI EM NGUYÊN",
-  "ongchaulaptrinh",
+  'mong tình cảm này mãi mãi trường tồn theo năm tháng',
+  "THƯƠNG MỖI CHI THÔI",
+  "YÊU CHI",
   ...(window.dataCCD && window.dataCCD.data.ringTexts ? window.dataCCD.data.ringTexts : [])
 ];
 
@@ -1323,3 +1323,4 @@ window.addEventListener('orientationchange', () => {
   // Thêm độ trễ để trình duyệt cập nhật kích thước chính xác
   setTimeout(checkOrientation, 200);
 });
+
